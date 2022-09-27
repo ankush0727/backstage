@@ -8,6 +8,9 @@ metadata:
     - backend
   annotations:
     sentry.io/project-slug: value
+    github.com/project-slug: backstage/backstage
+    backstage.io/techdocs-ref: dir:.
+    lighthouse.com/website-url: https://backstage.io
 spec:
   type: service
   lifecycle: production
