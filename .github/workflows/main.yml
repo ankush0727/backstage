@@ -1,21 +1,8 @@
 name: PR
-on:
-  pull_request_target:
-    types:
-      - opened
-      - synchronize
-      - reopened
-      - closed
-  issue_comment:
-    types:
-      - created
-
+on: push
 jobs:
-  sync:
+  my-job:
     runs-on: ubuntu-latest
-
-    # Avoid running on issue comments
-    if: github.repository == 'ankush0727/backstage' && ( github.event.pull_request || github.event.issue.pull_request )
     steps:
       - name: my-step
         run: echo "Hello World!"
