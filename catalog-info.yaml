@@ -6,6 +6,9 @@ metadata:
   tags:
     - nodejs
     - backend
+    - dev
+    - qa
+    - prod
   annotations:
     sentry.io/project-slug: value
     github.com/project-slug: ankush0727/backstage
