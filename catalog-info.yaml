@@ -8,6 +8,7 @@ metadata:
     - backend
   annotations:
     backstage.io/managed-by-location: url:http://github.com/backstage/backstage/blob/master/catalog-info.yaml
+    sentry.io/project-slug: value
     backstage.io/techdocs-ref: dir:.
     lighthouse.com/website-url: https://backstage.io
 spec:
