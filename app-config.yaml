@@ -8,12 +8,12 @@ app:
   #   site: # datadoghq.eu default = datadoghq.com
   #   env: # optional
   support:
-    url: https://github.com/backstage/backstage/issues # Used by common ErrorPage
+    url: https://github.com/ankush0727/backstage1/issues # Used by common ErrorPage
     items: # Used by common SupportButton component
       - title: Issues
         icon: github
         links:
-          - url: https://github.com/backstage/backstage/issues
+          - url: https://github.com/ankush0727/backstage1/issues
             title: GitHub Issues
       - title: Discord Chatroom
         icon: chat
