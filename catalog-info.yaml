@@ -6,23 +6,14 @@ metadata:
   tags:
     - nodejs
     - backend
-    - dev
-    - qa
-    - prod
+    - env_dev
+    - env_qa
+    - env_prod
   annotations:
     sentry.io/project-slug: value
     github.com/project-slug: ankush0727/backstage
     backstage.io/techdocs-ref: dir:.
-    lighthouse.com/website-url: https://backstage.io
-  links:
-    - title: Website
-      url: http://backstage.io
-    - title: Documentation
-      url: https://backstage.io/docs
-    - title: Storybook
-      url: https://backstage.io/storybook
-    - title: Discord Chat
-      url: https://discord.com/invite/EBHEGzX
+    lighthouse.com/website-url: https://backstage.io  
 spec:
   type: service
   lifecycle: production
